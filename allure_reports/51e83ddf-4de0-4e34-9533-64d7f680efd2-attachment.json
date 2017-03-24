@@ -1,0 +1,57 @@
+{
+    "state": "success",
+    "sessionId": "08d6f2d9-7f24-4538-b82d-696f26dc6284",
+    "hCode": 104100043,
+    "value": [
+        {
+            "ELEMENT": "6"
+        },
+        {
+            "ELEMENT": "7"
+        },
+        {
+            "ELEMENT": "8"
+        },
+        {
+            "ELEMENT": "9"
+        },
+        {
+            "ELEMENT": "10"
+        },
+        {
+            "ELEMENT": "11"
+        },
+        {
+            "ELEMENT": "12"
+        },
+        {
+            "ELEMENT": "13"
+        },
+        {
+            "ELEMENT": "14"
+        },
+        {
+            "ELEMENT": "15"
+        },
+        {
+            "ELEMENT": "16"
+        },
+        {
+            "ELEMENT": "17"
+        },
+        {
+            "ELEMENT": "18"
+        },
+        {
+            "ELEMENT": "19"
+        },
+        {
+            "ELEMENT": "20"
+        },
+        {
+            "ELEMENT": "21"
+        }
+    ],
+    "class": "org.openqa.selenium.remote.Response",
+    "status": 0
+}

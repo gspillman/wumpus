@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="before_all_hook0" timestamp="2017-03-17T10:36:03" time="108.531" tests="0" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="6ec12908493cbceb8828a1c3e2f20dbb"/>
+      <property name="suiteName" value="&quot;before all&quot; hook0"/>
+      <property name="capabilities" value="iphonesimulator.ios.9_3.my_app"/>
+    </properties>
+  </testsuite>
+  <testsuite name="firebird_submission_form2" timestamp="2017-03-17T10:36:03" time="10.022" tests="1" failures="0" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="6ec12908493cbceb8828a1c3e2f20dbb"/>
+      <property name="suiteName" value="Firebird Submission Form2"/>
+      <property name="capabilities" value="iphonesimulator.ios.9_3.my_app"/>
+    </properties>
+    <testcase classname="iphonesimulator.ios.9_3.my_app.Firebird Submission Form2" name="&quot;before all&quot; hook4" time="98.528">
+      <error message="&#xA;Timeout of 10000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves.&#xA;"/>
+      <system-err>
+        <![CDATA[
+Error: Timeout of 10000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves.
+    at Timeout.<anonymous> (/Users/gary.spillman/node_modules/mocha/lib/runnable.js:232:19)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+]]>
+      </system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

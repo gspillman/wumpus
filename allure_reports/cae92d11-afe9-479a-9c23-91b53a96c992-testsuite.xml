@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1490033214374" stop="1490033218210">
+	<name>Firebird Home Page</name>
+	<title>Firebird Home Page</title>
+	<test-cases>
+		<test-case start="1490033214374" stop="1490033216638" status="passed">
+			<name>&quot;before all&quot; hook</name>
+			<title>&quot;before all&quot; hook</title>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+				<step start="1490033214377" stop="1490033216628" status="passed">
+					<name>POST /wd/hub/session/60300336-b6e8-43ac-8341-d20a4fd6d717/url</name>
+					<title>POST /wd/hub/session/60300336-b6e8-43ac-8341-d20a4fd6d717/url</title>
+					<attachments>
+						<attachment title="Request" source="8a81da93-169c-4244-9672-7e33455ab622-attachment.json" type="application/json" size="153"/>
+						<attachment title="Response" source="7d9d066f-6c43-4331-b8df-7c9172adc1b5-attachment.json" type="application/json" size="194"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1490033216638" stop="1490033216739" status="passed">
+			<name>should have the right title</name>
+			<title>should have the right title</title>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="{&quot;browserName&quot;:&quot;firefox&quot;}"/>
+				<parameter kind="environment-variable" name="spec files" value="[&quot;/Users/gary.spillman/code/wumpus/tests/specs/firebirdHomePage/firebird_home_spec.js&quot;]"/>
+			</parameters>
+			<steps>
+				<step start="1490033216640" stop="1490033216737" status="passed">
+					<name>GET /wd/hub/session/60300336-b6e8-43ac-8341-d20a4fd6d717/title</name>
+					<title>GET /wd/hub/session/60300336-b6e8-43ac-8341-d20a4fd6d717/title</title>
+					<attachments>
+						<attachment title="Response" source="37afe47e-2fcb-4a07-b16d-8e3ebcb3b576-attachment.json" type="application/json" size="221"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1490033216740" stop="1490033217239" status="passed">
+			<name>should let the user click on the Write a Review button</name>
+			<title>should let the user click on the Write a Review button</title>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="{&quot;browserName&quot;:&quot;firefox&quot;}"/>
+				<parameter kind="environment-variable" name="spec files" value="[&quot;/Users/gary.spillman/code/wumpus/tests/specs/firebirdHomePage/firebird_home_spec.js&quot;]"/>
+			</parameters>
+			<steps>
+				<step start="1490033216744" stop="1490033216841" status="passed">
+					<name>POST /wd/hub/session/60300336-b6e8-43ac-8341-d20a4fd6d717/elements</name>
+					<title>POST /wd/hub/session/60300336-b6e8-43ac-8341-d20a4fd6d717/elements</title>
+					<attachments>
+						<attachment title="Request" source="fc4f55ae-ddb7-4ce4-825e-875d4ce4ea1a-attachment.json" type="application/json" size="64"/>
+						<attachment title="Response" source="3d86f026-f3d5-40e0-8fe3-f849025e5c4d-attachment.json" type="application/json" size="293"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490033216841" stop="1490033216971" status="passed">
+					<name>GET /wd/hub/session/60300336-b6e8-43ac-8341-d20a4fd6d717/element/0/displayed</name>
+					<title>GET /wd/hub/session/60300336-b6e8-43ac-8341-d20a4fd6d717/element/0/displayed</title>
+					<attachments>
+						<attachment title="Response" source="0bf6b256-3ef1-4c41-ada3-2658614577eb-attachment.json" type="application/json" size="196"/>
+					</attachments>
+					<steps>
+						<step start="1490033216842" stop="1490033216957" status="passed">
+							<name>GET /wd/hub/session/60300336-b6e8-43ac-8341-d20a4fd6d717/element/1/displayed</name>
+							<title>GET /wd/hub/session/60300336-b6e8-43ac-8341-d20a4fd6d717/element/1/displayed</title>
+							<attachments>
+								<attachment title="Response" source="54d7b2a9-f16f-4882-a06d-b275f04f3b40-attachment.json" type="application/json" size="195"/>
+							</attachments>
+							<steps>
+							</steps>
+						</step>
+					</steps>
+				</step>
+				<step start="1490033216974" stop="1490033217077" status="passed">
+					<name>POST /wd/hub/session/60300336-b6e8-43ac-8341-d20a4fd6d717/element</name>
+					<title>POST /wd/hub/session/60300336-b6e8-43ac-8341-d20a4fd6d717/element</title>
+					<attachments>
+						<attachment title="Request" source="a943ea0a-dd8a-437f-896d-1868af6b800e-attachment.json" type="application/json" size="64"/>
+						<attachment title="Response" source="9f7d9a1e-b8e1-42f7-a50a-9d9bb2f3304d-attachment.json" type="application/json" size="222"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490033217078" stop="1490033217236" status="passed">
+					<name>POST /wd/hub/session/60300336-b6e8-43ac-8341-d20a4fd6d717/element/0/click</name>
+					<title>POST /wd/hub/session/60300336-b6e8-43ac-8341-d20a4fd6d717/element/0/click</title>
+					<attachments>
+						<attachment title="Response" source="475b1a86-e6dd-4694-b456-e30d1c967730-attachment.json" type="application/json" size="196"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1490033217239" stop="1490033217455" status="passed">
+			<name>should make sure the trustmark icon is viewable</name>
+			<title>should make sure the trustmark icon is viewable</title>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="{&quot;browserName&quot;:&quot;firefox&quot;}"/>
+				<parameter kind="environment-variable" name="spec files" value="[&quot;/Users/gary.spillman/code/wumpus/tests/specs/firebirdHomePage/firebird_home_spec.js&quot;]"/>
+			</parameters>
+			<steps>
+				<step start="1490033217240" stop="1490033217339" status="passed">
+					<name>POST /wd/hub/session/60300336-b6e8-43ac-8341-d20a4fd6d717/elements</name>
+					<title>POST /wd/hub/session/60300336-b6e8-43ac-8341-d20a4fd6d717/elements</title>
+					<attachments>
+						<attachment title="Request" source="629301f4-a032-42cf-9cc7-d89f5229f23c-attachment.json" type="application/json" size="71"/>
+						<attachment title="Response" source="1c534d93-570e-4497-9d30-159b0223340d-attachment.json" type="application/json" size="245"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490033217341" stop="1490033217454" status="passed">
+					<name>GET /wd/hub/session/60300336-b6e8-43ac-8341-d20a4fd6d717/element/2/displayed</name>
+					<title>GET /wd/hub/session/60300336-b6e8-43ac-8341-d20a4fd6d717/element/2/displayed</title>
+					<attachments>
+						<attachment title="Response" source="d67e3c3f-a6e0-491d-b512-f63913fc3811-attachment.json" type="application/json" size="195"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1490033217455" stop="1490033218209" status="passed">
+			<name>should see the ratings label and data count containers texts are the same</name>
+			<title>should see the ratings label and data count containers texts are the same</title>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="{&quot;browserName&quot;:&quot;firefox&quot;}"/>
+				<parameter kind="environment-variable" name="spec files" value="[&quot;/Users/gary.spillman/code/wumpus/tests/specs/firebirdHomePage/firebird_home_spec.js&quot;]"/>
+			</parameters>
+			<steps>
+				<step start="1490033217456" stop="1490033217565" status="passed">
+					<name>POST /wd/hub/session/60300336-b6e8-43ac-8341-d20a4fd6d717/elements</name>
+					<title>POST /wd/hub/session/60300336-b6e8-43ac-8341-d20a4fd6d717/elements</title>
+					<attachments>
+						<attachment title="Request" source="7661b6b8-42f5-41c4-a4a4-f282bcb5f422-attachment.json" type="application/json" size="70"/>
+						<attachment title="Response" source="ebc5f884-9fbd-4e4f-b789-1ea65d38b32c-attachment.json" type="application/json" size="342"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490033217565" stop="1490033217721" status="passed">
+					<name>GET /wd/hub/session/60300336-b6e8-43ac-8341-d20a4fd6d717/element/3/displayed</name>
+					<title>GET /wd/hub/session/60300336-b6e8-43ac-8341-d20a4fd6d717/element/3/displayed</title>
+					<attachments>
+						<attachment title="Response" source="70880711-4be2-4984-ad4c-c80271c0a98b-attachment.json" type="application/json" size="195"/>
+					</attachments>
+					<steps>
+						<step start="1490033217565" stop="1490033217703" status="passed">
+							<name>GET /wd/hub/session/60300336-b6e8-43ac-8341-d20a4fd6d717/element/4/displayed</name>
+							<title>GET /wd/hub/session/60300336-b6e8-43ac-8341-d20a4fd6d717/element/4/displayed</title>
+							<attachments>
+								<attachment title="Response" source="b940ebc2-2531-4505-bbac-7b77be9f3d5e-attachment.json" type="application/json" size="195"/>
+							</attachments>
+							<steps>
+								<step start="1490033217566" stop="1490033217674" status="passed">
+									<name>GET /wd/hub/session/60300336-b6e8-43ac-8341-d20a4fd6d717/element/5/displayed</name>
+									<title>GET /wd/hub/session/60300336-b6e8-43ac-8341-d20a4fd6d717/element/5/displayed</title>
+									<attachments>
+										<attachment title="Response" source="e64b597e-5126-42c7-b65b-f1482c4bf97c-attachment.json" type="application/json" size="196"/>
+									</attachments>
+									<steps>
+									</steps>
+								</step>
+							</steps>
+						</step>
+					</steps>
+				</step>
+				<step start="1490033217724" stop="1490033218060" status="passed">
+					<name>POST /wd/hub/session/60300336-b6e8-43ac-8341-d20a4fd6d717/elements</name>
+					<title>POST /wd/hub/session/60300336-b6e8-43ac-8341-d20a4fd6d717/elements</title>
+					<attachments>
+						<attachment title="Request" source="f472e51e-d727-4e64-a757-510593e259d1-attachment.json" type="application/json" size="70"/>
+						<attachment title="Response" source="24360c0f-6e6e-446a-b56c-6943c76b1fba-attachment.json" type="application/json" size="342"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490033218061" stop="1490033218207" status="passed">
+					<name>GET /wd/hub/session/60300336-b6e8-43ac-8341-d20a4fd6d717/element/3/text</name>
+					<title>GET /wd/hub/session/60300336-b6e8-43ac-8341-d20a4fd6d717/element/3/text</title>
+					<attachments>
+						<attachment title="Response" source="41f12ef8-1c87-4dc5-9cd7-1b0bccc7dd0c-attachment.json" type="application/json" size="245"/>
+					</attachments>
+					<steps>
+						<step start="1490033218061" stop="1490033218185" status="passed">
+							<name>GET /wd/hub/session/60300336-b6e8-43ac-8341-d20a4fd6d717/element/4/text</name>
+							<title>GET /wd/hub/session/60300336-b6e8-43ac-8341-d20a4fd6d717/element/4/text</title>
+							<attachments>
+								<attachment title="Response" source="f38a4a35-5c59-4d6d-bac6-d04e86c1df20-attachment.json" type="application/json" size="245"/>
+							</attachments>
+							<steps>
+								<step start="1490033218061" stop="1490033218173" status="passed">
+									<name>GET /wd/hub/session/60300336-b6e8-43ac-8341-d20a4fd6d717/element/5/text</name>
+									<title>GET /wd/hub/session/60300336-b6e8-43ac-8341-d20a4fd6d717/element/5/text</title>
+									<attachments>
+										<attachment title="Response" source="f4f6c6fe-3a52-421b-adaa-5bb6993808bc-attachment.json" type="application/json" size="245"/>
+									</attachments>
+									<steps>
+									</steps>
+								</step>
+							</steps>
+						</step>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

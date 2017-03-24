@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="before_all_hook0" timestamp="2017-03-23T11:31:47" time="15.749" tests="0" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="34251a306649899e6bb7749478a24079"/>
+      <property name="suiteName" value="&quot;before all&quot; hook0"/>
+      <property name="capabilities" value="chrome"/>
+    </properties>
+  </testsuite>
+  <testsuite name="firebird_home_page2" timestamp="2017-03-23T11:31:47" time="4.568" tests="4" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="34251a306649899e6bb7749478a24079"/>
+      <property name="suiteName" value="Firebird Home Page2"/>
+      <property name="capabilities" value="chrome"/>
+    </properties>
+    <testcase classname="chrome.Firebird Home Page2" name="should have the right title4" time="0.149">
+      <system-out>
+        <![CDATA[
+COMMAND: GET http://testmaster-hub.qa.us-east-1.nexus.bazaarvoice.com:4444/wd/hub/session/a82e0949-0b69-486b-a68a-db11b6f2e2e7/title - {}
+RESULT: {"state":"success","sessionId":"a82e0949-0b69-486b-a68a-db11b6f2e2e7","hCode":1833113373,"value":"Test Client Integration Page","class":"org.openqa.selenium.remote.Response","status":0}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.Firebird Home Page2" name="should let the user click on the Write a Review button7" time="2.46">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://testmaster-hub.qa.us-east-1.nexus.bazaarvoice.com:4444/wd/hub/session/a82e0949-0b69-486b-a68a-db11b6f2e2e7/elements - {"using":"css selector","value":".bv-write-review"}
+RESULT: {"state":"success","sessionId":"a82e0949-0b69-486b-a68a-db11b6f2e2e7","hCode":1054782333,"value":[],"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://testmaster-hub.qa.us-east-1.nexus.bazaarvoice.com:4444/wd/hub/session/a82e0949-0b69-486b-a68a-db11b6f2e2e7/elements - {"using":"css selector","value":".bv-write-review"}
+RESULT: {"state":"success","sessionId":"a82e0949-0b69-486b-a68a-db11b6f2e2e7","hCode":1841986624,"value":[{"ELEMENT":"0"},{"ELEMENT":"1"}],"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: GET http://testmaster-hub.qa.us-east-1.nexus.bazaarvoice.com:4444/wd/hub/session/a82e0949-0b69-486b-a68a-db11b6f2e2e7/element/0/displayed - {}
+COMMAND: GET http://testmaster-hub.qa.us-east-1.nexus.bazaarvoice.com:4444/wd/hub/session/a82e0949-0b69-486b-a68a-db11b6f2e2e7/element/1/displayed - {}
+RESULT: {"state":"success","sessionId":"a82e0949-0b69-486b-a68a-db11b6f2e2e7","hCode":1624328045,"value":true,"class":"org.openqa.selenium.remote.Response","status":0}
+RESULT: {"state":"success","sessionId":"a82e0949-0b69-486b-a68a-db11b6f2e2e7","hCode":38335657,"value":true,"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://testmaster-hub.qa.us-east-1.nexus.bazaarvoice.com:4444/wd/hub/session/a82e0949-0b69-486b-a68a-db11b6f2e2e7/element - {"using":"css selector","value":".bv-write-review"}
+RESULT: {"state":"success","sessionId":"a82e0949-0b69-486b-a68a-db11b6f2e2e7","hCode":1648233660,"value":{"ELEMENT":"0"},"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://testmaster-hub.qa.us-east-1.nexus.bazaarvoice.com:4444/wd/hub/session/a82e0949-0b69-486b-a68a-db11b6f2e2e7/element/0/click - {}
+RESULT: {"state":"success","sessionId":"a82e0949-0b69-486b-a68a-db11b6f2e2e7","hCode":1841938271,"value":null,"class":"org.openqa.selenium.remote.Response","status":0}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.Firebird Home Page2" name="should make sure the trustmark icon is viewable10" time="0.229">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://testmaster-hub.qa.us-east-1.nexus.bazaarvoice.com:4444/wd/hub/session/a82e0949-0b69-486b-a68a-db11b6f2e2e7/elements - {"using":"css selector","value":".bv-trustmarkIcon-image"}
+RESULT: {"state":"success","sessionId":"a82e0949-0b69-486b-a68a-db11b6f2e2e7","hCode":931703536,"value":[{"ELEMENT":"2"}],"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: GET http://testmaster-hub.qa.us-east-1.nexus.bazaarvoice.com:4444/wd/hub/session/a82e0949-0b69-486b-a68a-db11b6f2e2e7/element/2/displayed - {}
+RESULT: {"state":"success","sessionId":"a82e0949-0b69-486b-a68a-db11b6f2e2e7","hCode":508919535,"value":true,"class":"org.openqa.selenium.remote.Response","status":0}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.Firebird Home Page2" name="should see the ratings label and data count containers texts are the same13" time="1.185">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://testmaster-hub.qa.us-east-1.nexus.bazaarvoice.com:4444/wd/hub/session/a82e0949-0b69-486b-a68a-db11b6f2e2e7/elements - {"using":"css selector","value":".bv-rating-ratio-count"}
+RESULT: {"state":"success","sessionId":"a82e0949-0b69-486b-a68a-db11b6f2e2e7","hCode":1513443183,"value":[{"ELEMENT":"3"},{"ELEMENT":"4"},{"ELEMENT":"5"}],"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: GET http://testmaster-hub.qa.us-east-1.nexus.bazaarvoice.com:4444/wd/hub/session/a82e0949-0b69-486b-a68a-db11b6f2e2e7/element/3/displayed - {}
+COMMAND: GET http://testmaster-hub.qa.us-east-1.nexus.bazaarvoice.com:4444/wd/hub/session/a82e0949-0b69-486b-a68a-db11b6f2e2e7/element/4/displayed - {}
+COMMAND: GET http://testmaster-hub.qa.us-east-1.nexus.bazaarvoice.com:4444/wd/hub/session/a82e0949-0b69-486b-a68a-db11b6f2e2e7/element/5/displayed - {}
+RESULT: {"state":"success","sessionId":"a82e0949-0b69-486b-a68a-db11b6f2e2e7","hCode":1196534112,"value":true,"class":"org.openqa.selenium.remote.Response","status":0}
+RESULT: {"state":"success","sessionId":"a82e0949-0b69-486b-a68a-db11b6f2e2e7","hCode":861309708,"value":true,"class":"org.openqa.selenium.remote.Response","status":0}
+RESULT: {"state":"success","sessionId":"a82e0949-0b69-486b-a68a-db11b6f2e2e7","hCode":670105739,"value":true,"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://testmaster-hub.qa.us-east-1.nexus.bazaarvoice.com:4444/wd/hub/session/a82e0949-0b69-486b-a68a-db11b6f2e2e7/elements - {"using":"css selector","value":".bv-rating-ratio-count"}
+RESULT: {"state":"success","sessionId":"a82e0949-0b69-486b-a68a-db11b6f2e2e7","hCode":1404584478,"value":[{"ELEMENT":"3"},{"ELEMENT":"4"},{"ELEMENT":"5"}],"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: GET http://testmaster-hub.qa.us-east-1.nexus.bazaarvoice.com:4444/wd/hub/session/a82e0949-0b69-486b-a68a-db11b6f2e2e7/element/3/text - {}
+COMMAND: GET http://testmaster-hub.qa.us-east-1.nexus.bazaarvoice.com:4444/wd/hub/session/a82e0949-0b69-486b-a68a-db11b6f2e2e7/element/4/text - {}
+COMMAND: GET http://testmaster-hub.qa.us-east-1.nexus.bazaarvoice.com:4444/wd/hub/session/a82e0949-0b69-486b-a68a-db11b6f2e2e7/element/5/text - {}
+RESULT: {"state":"success","sessionId":"a82e0949-0b69-486b-a68a-db11b6f2e2e7","hCode":1915556165,"value":"1659 Reviews\nThis action will navigate to reviews.","class":"org.openqa.selenium.remote.Response","status":0}
+RESULT: {"state":"success","sessionId":"a82e0949-0b69-486b-a68a-db11b6f2e2e7","hCode":1271176818,"value":"1659 Reviews\nThis action will navigate to reviews.","class":"org.openqa.selenium.remote.Response","status":0}
+RESULT: {"state":"success","sessionId":"a82e0949-0b69-486b-a68a-db11b6f2e2e7","hCode":1115487250,"value":"1659 Reviews\nThis action will navigate to reviews.","class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: DELETE http://testmaster-hub.qa.us-east-1.nexus.bazaarvoice.com:4444/wd/hub/session/a82e0949-0b69-486b-a68a-db11b6f2e2e7 - {}
+RESULT: {"state":"success","sessionId":"a82e0949-0b69-486b-a68a-db11b6f2e2e7","hCode":1278958396,"value":null,"class":"org.openqa.selenium.remote.Response","status":0}
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

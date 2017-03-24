@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1489085029160" stop="1489085029380">
+	<name>Firebird Submission Form</name>
+	<title>Firebird Submission Form</title>
+	<test-cases>
+		<test-case start="1489085029160" stop="1489085029379" status="failed">
+			<name>should have the right title</name>
+			<title>should have the right title</title>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="{&quot;maxInstances&quot;:5,&quot;browserName&quot;:&quot;chrome&quot;}"/>
+				<parameter kind="environment-variable" name="spec files" value="[&quot;/Users/gary.spillman/code/wumpus/tests/specs/firebird_smoke_spec.js&quot;]"/>
+			</parameters>
+			<steps>
+				<step start="1489085029164" stop="1489085029277" status="passed">
+					<name>GET /wd/hub/session/561e597d-bce9-4ad6-ae4d-854f1bbfc7d2/url</name>
+					<title>GET /wd/hub/session/561e597d-bce9-4ad6-ae4d-854f1bbfc7d2/url</title>
+					<attachments>
+						<attachment title="Response" source="7b3f95bc-3431-4d0b-bfd5-2dc87fd5e1ce-attachment.json" type="application/json" size="200"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1489085029280" stop="1489085029374" status="passed">
+					<name>GET /wd/hub/session/561e597d-bce9-4ad6-ae4d-854f1bbfc7d2/title</name>
+					<title>GET /wd/hub/session/561e597d-bce9-4ad6-ae4d-854f1bbfc7d2/title</title>
+					<attachments>
+						<attachment title="Response" source="959de2c3-2935-4cb1-91d7-3cb8a13127d5-attachment.json" type="application/json" size="194"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>&apos;&apos; == undefined</message>
+				<stack-trace>AssertionError: &apos;&apos; == undefined
+    at Context.&lt;anonymous&gt; (/Users/gary.spillman/code/wumpus/tests/specs/firebird_smoke_spec.js:13:16)</stack-trace>
+			</failure>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

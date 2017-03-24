@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="before_all_hook0" timestamp="2017-03-17T12:57:57" time="20.678" tests="0" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="873a3eb4e3f4021f2bdb67515c18d6b4"/>
+      <property name="suiteName" value="&quot;before all&quot; hook0"/>
+      <property name="capabilities" value="iphonesimulator.ios.9_3.my_app"/>
+    </properties>
+  </testsuite>
+  <testsuite name="firebird_submission_form_12" timestamp="2017-03-17T12:57:57" time="18.25" tests="4" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="873a3eb4e3f4021f2bdb67515c18d6b4"/>
+      <property name="suiteName" value="Firebird Submission Form 12"/>
+      <property name="capabilities" value="iphonesimulator.ios.9_3.my_app"/>
+    </properties>
+    <testcase classname="iphonesimulator.ios.9_3.my_app.Firebird Submission Form 12" name="should have the right title4" time="0.519">
+      <system-out>
+        <![CDATA[
+COMMAND: GET http://localhost:4723/wd/hub/session/17ba8f15-f515-409e-abf8-b18b5112687a/title - {}
+RESULT: {"status":0,"value":"Test Client Integration Page","sessionId":"17ba8f15-f515-409e-abf8-b18b5112687a"}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="iphonesimulator.ios.9_3.my_app.Firebird Submission Form 12" name="should let the user click on the Write a Review button7" time="8.811">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://localhost:4723/wd/hub/session/17ba8f15-f515-409e-abf8-b18b5112687a/elements - {"using":"css selector","value":".bv-write-review"}
+RESULT: {"status":0,"value":[{"ELEMENT":"5000"},{"ELEMENT":"5001"}],"sessionId":"17ba8f15-f515-409e-abf8-b18b5112687a"}
+COMMAND: GET http://localhost:4723/wd/hub/session/17ba8f15-f515-409e-abf8-b18b5112687a/element/5000/displayed - {}
+COMMAND: GET http://localhost:4723/wd/hub/session/17ba8f15-f515-409e-abf8-b18b5112687a/element/5001/displayed - {}
+RESULT: {"status":0,"value":true,"sessionId":"17ba8f15-f515-409e-abf8-b18b5112687a"}
+RESULT: {"status":0,"value":true,"sessionId":"17ba8f15-f515-409e-abf8-b18b5112687a"}
+COMMAND: POST http://localhost:4723/wd/hub/session/17ba8f15-f515-409e-abf8-b18b5112687a/element - {"using":"css selector","value":".bv-write-review"}
+RESULT: {"status":0,"value":{"ELEMENT":"5002"},"sessionId":"17ba8f15-f515-409e-abf8-b18b5112687a"}
+COMMAND: POST http://localhost:4723/wd/hub/session/17ba8f15-f515-409e-abf8-b18b5112687a/element/5002/click - {}
+RESULT: {"status":0,"value":null,"sessionId":"17ba8f15-f515-409e-abf8-b18b5112687a"}
+COMMAND: POST http://localhost:4723/wd/hub/session/17ba8f15-f515-409e-abf8-b18b5112687a/elements - {"using":"id","value":"bv-radio-rating-1"}
+RESULT: {"status":0,"value":[{"ELEMENT":"5003"}],"sessionId":"17ba8f15-f515-409e-abf8-b18b5112687a"}
+COMMAND: GET http://localhost:4723/wd/hub/session/17ba8f15-f515-409e-abf8-b18b5112687a/element/5003/displayed - {}
+RESULT: {"status":0,"value":true,"sessionId":"17ba8f15-f515-409e-abf8-b18b5112687a"}
+COMMAND: POST http://localhost:4723/wd/hub/session/17ba8f15-f515-409e-abf8-b18b5112687a/element - {"using":"id","value":"bv-radio-rating-1"}
+RESULT: {"status":0,"value":{"ELEMENT":"5004"},"sessionId":"17ba8f15-f515-409e-abf8-b18b5112687a"}
+COMMAND: POST http://localhost:4723/wd/hub/session/17ba8f15-f515-409e-abf8-b18b5112687a/element/5004/click - {}
+RESULT: {"status":0,"value":null,"sessionId":"17ba8f15-f515-409e-abf8-b18b5112687a"}
+COMMAND: POST http://localhost:4723/wd/hub/session/17ba8f15-f515-409e-abf8-b18b5112687a/element - {"using":"id","value":"bv-radio-rating-2"}
+RESULT: {"status":0,"value":{"ELEMENT":"5005"},"sessionId":"17ba8f15-f515-409e-abf8-b18b5112687a"}
+COMMAND: POST http://localhost:4723/wd/hub/session/17ba8f15-f515-409e-abf8-b18b5112687a/element/5005/click - {}
+RESULT: {"status":0,"value":null,"sessionId":"17ba8f15-f515-409e-abf8-b18b5112687a"}
+COMMAND: POST http://localhost:4723/wd/hub/session/17ba8f15-f515-409e-abf8-b18b5112687a/element - {"using":"id","value":"bv-radio-rating-3"}
+RESULT: {"status":0,"value":{"ELEMENT":"5006"},"sessionId":"17ba8f15-f515-409e-abf8-b18b5112687a"}
+COMMAND: POST http://localhost:4723/wd/hub/session/17ba8f15-f515-409e-abf8-b18b5112687a/element/5006/click - {}
+RESULT: {"status":0,"value":null,"sessionId":"17ba8f15-f515-409e-abf8-b18b5112687a"}
+COMMAND: POST http://localhost:4723/wd/hub/session/17ba8f15-f515-409e-abf8-b18b5112687a/element - {"using":"id","value":"bv-radio-rating-4"}
+RESULT: {"status":0,"value":{"ELEMENT":"5007"},"sessionId":"17ba8f15-f515-409e-abf8-b18b5112687a"}
+COMMAND: POST http://localhost:4723/wd/hub/session/17ba8f15-f515-409e-abf8-b18b5112687a/element/5007/click - {}
+RESULT: {"status":0,"value":null,"sessionId":"17ba8f15-f515-409e-abf8-b18b5112687a"}
+COMMAND: POST http://localhost:4723/wd/hub/session/17ba8f15-f515-409e-abf8-b18b5112687a/element - {"using":"id","value":"bv-radio-rating-5"}
+RESULT: {"status":0,"value":{"ELEMENT":"5008"},"sessionId":"17ba8f15-f515-409e-abf8-b18b5112687a"}
+COMMAND: POST http://localhost:4723/wd/hub/session/17ba8f15-f515-409e-abf8-b18b5112687a/element/5008/click - {}
+RESULT: {"status":0,"value":null,"sessionId":"17ba8f15-f515-409e-abf8-b18b5112687a"}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="iphonesimulator.ios.9_3.my_app.Firebird Submission Form 12" name="should make sure the trustmark icon is viewable10" time="1.049">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://localhost:4723/wd/hub/session/17ba8f15-f515-409e-abf8-b18b5112687a/elements - {"using":"css selector","value":".bv-trustmarkIcon-image"}
+RESULT: {"status":0,"value":[{"ELEMENT":"5009"}],"sessionId":"17ba8f15-f515-409e-abf8-b18b5112687a"}
+COMMAND: GET http://localhost:4723/wd/hub/session/17ba8f15-f515-409e-abf8-b18b5112687a/element/5009/displayed - {}
+RESULT: {"status":0,"value":true,"sessionId":"17ba8f15-f515-409e-abf8-b18b5112687a"}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="iphonesimulator.ios.9_3.my_app.Firebird Submission Form 12" name="should see the ratings label and data count containers texts are the same13" time="4.105">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://localhost:4723/wd/hub/session/17ba8f15-f515-409e-abf8-b18b5112687a/elements - {"using":"css selector","value":".bv-rating-ratio-count"}
+RESULT: {"status":0,"value":[{"ELEMENT":"5010"},{"ELEMENT":"5011"},{"ELEMENT":"5012"}],"sessionId":"17ba8f15-f515-409e-abf8-b18b5112687a"}
+COMMAND: GET http://localhost:4723/wd/hub/session/17ba8f15-f515-409e-abf8-b18b5112687a/element/5010/displayed - {}
+COMMAND: GET http://localhost:4723/wd/hub/session/17ba8f15-f515-409e-abf8-b18b5112687a/element/5011/displayed - {}
+COMMAND: GET http://localhost:4723/wd/hub/session/17ba8f15-f515-409e-abf8-b18b5112687a/element/5012/displayed - {}
+RESULT: {"status":0,"value":true,"sessionId":"17ba8f15-f515-409e-abf8-b18b5112687a"}
+RESULT: {"status":0,"value":true,"sessionId":"17ba8f15-f515-409e-abf8-b18b5112687a"}
+RESULT: {"status":0,"value":true,"sessionId":"17ba8f15-f515-409e-abf8-b18b5112687a"}
+COMMAND: POST http://localhost:4723/wd/hub/session/17ba8f15-f515-409e-abf8-b18b5112687a/elements - {"using":"css selector","value":".bv-rating-ratio-count"}
+RESULT: {"status":0,"value":[{"ELEMENT":"5013"},{"ELEMENT":"5014"},{"ELEMENT":"5015"}],"sessionId":"17ba8f15-f515-409e-abf8-b18b5112687a"}
+COMMAND: GET http://localhost:4723/wd/hub/session/17ba8f15-f515-409e-abf8-b18b5112687a/element/5013/text - {}
+COMMAND: GET http://localhost:4723/wd/hub/session/17ba8f15-f515-409e-abf8-b18b5112687a/element/5014/text - {}
+COMMAND: GET http://localhost:4723/wd/hub/session/17ba8f15-f515-409e-abf8-b18b5112687a/element/5015/text - {}
+RESULT: {"status":0,"value":"1643 Reviews\nThis action will navigate to reviews.","sessionId":"17ba8f15-f515-409e-abf8-b18b5112687a"}
+RESULT: {"status":0,"value":"1643 Reviews\nThis action will navigate to reviews.","sessionId":"17ba8f15-f515-409e-abf8-b18b5112687a"}
+RESULT: {"status":0,"value":"1643 Reviews\nThis action will navigate to reviews.","sessionId":"17ba8f15-f515-409e-abf8-b18b5112687a"}
+COMMAND: DELETE http://localhost:4723/wd/hub/session/17ba8f15-f515-409e-abf8-b18b5112687a - {}
+RESULT: {"status":0,"value":null,"sessionId":"17ba8f15-f515-409e-abf8-b18b5112687a"}
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

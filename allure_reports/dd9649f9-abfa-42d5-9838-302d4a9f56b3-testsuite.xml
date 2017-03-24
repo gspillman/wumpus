@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1490036787044" stop="1490036790593">
+	<name>Firebird Review Submission Form - Negative Tests</name>
+	<title>Firebird Review Submission Form - Negative Tests</title>
+	<test-cases>
+		<test-case start="1490036787044" stop="1490036789886" status="passed">
+			<name>&quot;before all&quot; hook</name>
+			<title>&quot;before all&quot; hook</title>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+				<step start="1490036787047" stop="1490036789380" status="passed">
+					<name>POST /wd/hub/session/0e7b9dff-0d2c-4edd-beb4-25ecc296f961/url</name>
+					<title>POST /wd/hub/session/0e7b9dff-0d2c-4edd-beb4-25ecc296f961/url</title>
+					<attachments>
+						<attachment title="Request" source="14adaffd-d9bb-44b2-9273-688d3ffa069a-attachment.json" type="application/json" size="153"/>
+						<attachment title="Response" source="48ebe89d-21ee-49c5-8608-d394dc502cf8-attachment.json" type="application/json" size="195"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490036789384" stop="1490036789482" status="passed">
+					<name>POST /wd/hub/session/0e7b9dff-0d2c-4edd-beb4-25ecc296f961/elements</name>
+					<title>POST /wd/hub/session/0e7b9dff-0d2c-4edd-beb4-25ecc296f961/elements</title>
+					<attachments>
+						<attachment title="Request" source="d3393975-e6d5-49e4-852d-6be1786b3ce7-attachment.json" type="application/json" size="64"/>
+						<attachment title="Response" source="a996d38a-ec92-4a1a-bdc7-b3ff62df1e6f-attachment.json" type="application/json" size="293"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490036789484" stop="1490036789623" status="passed">
+					<name>GET /wd/hub/session/0e7b9dff-0d2c-4edd-beb4-25ecc296f961/element/0/displayed</name>
+					<title>GET /wd/hub/session/0e7b9dff-0d2c-4edd-beb4-25ecc296f961/element/0/displayed</title>
+					<attachments>
+						<attachment title="Response" source="c5c6614b-af76-4937-a2e2-b47d48f881a6-attachment.json" type="application/json" size="196"/>
+					</attachments>
+					<steps>
+						<step start="1490036789485" stop="1490036789606" status="passed">
+							<name>GET /wd/hub/session/0e7b9dff-0d2c-4edd-beb4-25ecc296f961/element/1/displayed</name>
+							<title>GET /wd/hub/session/0e7b9dff-0d2c-4edd-beb4-25ecc296f961/element/1/displayed</title>
+							<attachments>
+								<attachment title="Response" source="3b9626b9-ee1f-425e-8f9e-bedea3666e91-attachment.json" type="application/json" size="194"/>
+							</attachments>
+							<steps>
+							</steps>
+						</step>
+					</steps>
+				</step>
+				<step start="1490036789626" stop="1490036789733" status="passed">
+					<name>POST /wd/hub/session/0e7b9dff-0d2c-4edd-beb4-25ecc296f961/element</name>
+					<title>POST /wd/hub/session/0e7b9dff-0d2c-4edd-beb4-25ecc296f961/element</title>
+					<attachments>
+						<attachment title="Request" source="13ef80ee-fb79-4c7f-895e-0a2b217ca389-attachment.json" type="application/json" size="64"/>
+						<attachment title="Response" source="46873af6-1605-4c07-b0c5-723e777b177d-attachment.json" type="application/json" size="221"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490036789734" stop="1490036789883" status="passed">
+					<name>POST /wd/hub/session/0e7b9dff-0d2c-4edd-beb4-25ecc296f961/element/0/click</name>
+					<title>POST /wd/hub/session/0e7b9dff-0d2c-4edd-beb4-25ecc296f961/element/0/click</title>
+					<attachments>
+						<attachment title="Response" source="fa977055-d7a7-44a2-8eff-f34692cf8f0f-attachment.json" type="application/json" size="195"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1490036789886" stop="1490036790592" status="broken">
+			<name>should invalidate the email field if an bad email address is entered</name>
+			<title>should invalidate the email field if an bad email address is entered</title>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="{&quot;browserName&quot;:&quot;firefox&quot;}"/>
+				<parameter kind="environment-variable" name="spec files" value="[&quot;/Users/gary.spillman/code/wumpus/tests/specs/reviewForm/submit_review_negative_spec.js&quot;]"/>
+			</parameters>
+			<steps>
+				<step start="1490036789888" stop="1490036790323" status="passed">
+					<name>POST /wd/hub/session/0e7b9dff-0d2c-4edd-beb4-25ecc296f961/element</name>
+					<title>POST /wd/hub/session/0e7b9dff-0d2c-4edd-beb4-25ecc296f961/element</title>
+					<attachments>
+						<attachment title="Request" source="5681fb29-f9ac-483b-9e66-b4c1fff7103e-attachment.json" type="application/json" size="93"/>
+						<attachment title="Response" source="59bb8041-80b0-4140-9bc9-19e080d52c07-attachment.json" type="application/json" size="62971"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490036790323" stop="1490036790591" status="passed">
+					<name>GET /wd/hub/session/0e7b9dff-0d2c-4edd-beb4-25ecc296f961/screenshot</name>
+					<title>GET /wd/hub/session/0e7b9dff-0d2c-4edd-beb4-25ecc296f961/screenshot</title>
+					<attachments>
+						<attachment title="Screenshot" source="608ba851-5e47-41d7-ae39-664a3ca49e53-attachment.png" type="image/png" size="29164"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>An element could not be located on the page using the given search parameters.</message>
+				<stack-trace>Error: An element could not be located on the page using the given search parameters.
+    at click(&quot;#bv-email-field-hostedauthentication_authenticationemail&quot;) - at element(&quot;#bv-email-field-hostedauthentication_authenticationemail&quot;) - click.js:12:17</stack-trace>
+			</failure>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1489100884129" stop="1489100888383">
+	<name>Firebird Submission Form</name>
+	<title>Firebird Submission Form</title>
+	<test-cases>
+		<test-case start="1489100884130" stop="1489100884794" status="passed">
+			<name>should have the right title</name>
+			<title>should have the right title</title>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="{&quot;maxInstances&quot;:5,&quot;browserName&quot;:&quot;chrome&quot;}"/>
+				<parameter kind="environment-variable" name="spec files" value="[&quot;/Users/gary.spillman/code/wumpus/tests/specs/firebird_smoke_spec.js&quot;]"/>
+			</parameters>
+			<steps>
+				<step start="1489100884134" stop="1489100884590" status="passed">
+					<name>POST /wd/hub/session/031fe358-dc95-4a79-865a-1127f7e2f181/url</name>
+					<title>POST /wd/hub/session/031fe358-dc95-4a79-865a-1127f7e2f181/url</title>
+					<attachments>
+						<attachment title="Request" source="6fd177cb-fcbb-46d5-bfc8-dc868903a0ef-attachment.json" type="application/json" size="153"/>
+						<attachment title="Response" source="7f274e46-b7de-48c8-94f4-f93c116edf73-attachment.json" type="application/json" size="196"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1489100884595" stop="1489100884792" status="passed">
+					<name>GET /wd/hub/session/031fe358-dc95-4a79-865a-1127f7e2f181/title</name>
+					<title>GET /wd/hub/session/031fe358-dc95-4a79-865a-1127f7e2f181/title</title>
+					<attachments>
+						<attachment title="Response" source="a5ce3680-1bfd-4859-88cd-31c2d6504a53-attachment.json" type="application/json" size="222"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1489100884795" stop="1489100888383" status="broken">
+			<name>should let the user click on the Write a Review button</name>
+			<title>should let the user click on the Write a Review button</title>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="{&quot;maxInstances&quot;:5,&quot;browserName&quot;:&quot;chrome&quot;}"/>
+				<parameter kind="environment-variable" name="spec files" value="[&quot;/Users/gary.spillman/code/wumpus/tests/specs/firebird_smoke_spec.js&quot;]"/>
+			</parameters>
+			<steps>
+				<step start="1489100884797" stop="1489100886071" status="passed">
+					<name>POST /wd/hub/session/031fe358-dc95-4a79-865a-1127f7e2f181/url</name>
+					<title>POST /wd/hub/session/031fe358-dc95-4a79-865a-1127f7e2f181/url</title>
+					<attachments>
+						<attachment title="Request" source="77b973d0-5ced-45c8-90e3-82538c4d6cee-attachment.json" type="application/json" size="153"/>
+						<attachment title="Response" source="f3176ae5-a770-4237-a1a9-f367dc013aef-attachment.json" type="application/json" size="196"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1489100886076" stop="1489100886628" status="passed">
+					<name>POST /wd/hub/session/031fe358-dc95-4a79-865a-1127f7e2f181/elements</name>
+					<title>POST /wd/hub/session/031fe358-dc95-4a79-865a-1127f7e2f181/elements</title>
+					<attachments>
+						<attachment title="Request" source="e8704a4f-56cc-4f51-a944-d7156c22c561-attachment.json" type="application/json" size="119"/>
+						<attachment title="Response" source="7af62b9c-e03e-4f70-af12-5fe98d8fa305-attachment.json" type="application/json" size="192"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1489100886632" stop="1489100888382" status="passed">
+					<name>GET /wd/hub/session/031fe358-dc95-4a79-865a-1127f7e2f181/screenshot</name>
+					<title>GET /wd/hub/session/031fe358-dc95-4a79-865a-1127f7e2f181/screenshot</title>
+					<attachments>
+						<attachment title="Screenshot" source="296957c2-9493-4052-a8fb-bdf648016480-attachment.png" type="image/png" size="24769"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>An element could not be located on the page using the given search parameters (&quot;.bv-write-review*=Write a review&quot;).</message>
+				<stack-trace>Error: An element could not be located on the page using the given search parameters (&quot;.bv-write-review*=Write a review&quot;).
+    at getText(&quot;.bv-write-review*=Write a review&quot;) - at elements(&quot;.bv-write-review*=Write a review&quot;) - getText.js:18:17</stack-trace>
+			</failure>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

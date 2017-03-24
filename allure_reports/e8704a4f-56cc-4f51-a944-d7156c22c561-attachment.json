@@ -1,0 +1,4 @@
+{
+    "using": "xpath",
+    "value": "//*[contains(@class, \"bv-write-review\") and contains(., \"Write a review\")]"
+}

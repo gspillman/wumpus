@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1489773106382" stop="1489773125305">
+	<name>Firebird Submission Form 1</name>
+	<title>Firebird Submission Form 1</title>
+	<test-cases>
+		<test-case start="1489773106382" stop="1489773110252" status="passed">
+			<name>&quot;before all&quot; hook</name>
+			<title>&quot;before all&quot; hook</title>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+				<step start="1489773106386" stop="1489773110248" status="passed">
+					<name>POST /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/url</name>
+					<title>POST /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/url</title>
+					<attachments>
+						<attachment title="Request" source="5289224d-4bd4-41cc-be58-da6fa8d30ba5-attachment.json" type="application/json" size="153"/>
+						<attachment title="Response" source="63ec6718-c2c4-4f9f-9881-a9d26ceea43a-attachment.json" type="application/json" size="95"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1489773110252" stop="1489773110772" status="passed">
+			<name>should have the right title</name>
+			<title>should have the right title</title>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="{&quot;browserName&quot;:&quot;safari&quot;,&quot;appiumVersion&quot;:&quot;1.6.3&quot;,&quot;deviceName&quot;:&quot;iPhone Simulator&quot;,&quot;device-orientation&quot;:&quot;portrait&quot;,&quot;platformVersion&quot;:&quot;9.3&quot;,&quot;platformName&quot;:&quot;iOS&quot;,&quot;app&quot;:&quot;sauce-storage: /Users/username/my.app&quot;,&quot;automationName&quot;:&quot;XCUITest&quot;}"/>
+				<parameter kind="environment-variable" name="spec files" value="[&quot;/Users/gary.spillman/code/wumpus/tests/specs/firebirdHome/firebird_smoke_spec.js&quot;]"/>
+			</parameters>
+			<steps>
+				<step start="1489773110254" stop="1489773110770" status="passed">
+					<name>GET /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/title</name>
+					<title>GET /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/title</title>
+					<attachments>
+						<attachment title="Response" source="54744c1a-b78d-4101-bf03-07a871c2fe6c-attachment.json" type="application/json" size="121"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1489773110773" stop="1489773120108" status="passed">
+			<name>should let the user click on the Write a Review button</name>
+			<title>should let the user click on the Write a Review button</title>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="{&quot;browserName&quot;:&quot;safari&quot;,&quot;appiumVersion&quot;:&quot;1.6.3&quot;,&quot;deviceName&quot;:&quot;iPhone Simulator&quot;,&quot;device-orientation&quot;:&quot;portrait&quot;,&quot;platformVersion&quot;:&quot;9.3&quot;,&quot;platformName&quot;:&quot;iOS&quot;,&quot;app&quot;:&quot;sauce-storage: /Users/username/my.app&quot;,&quot;automationName&quot;:&quot;XCUITest&quot;}"/>
+				<parameter kind="environment-variable" name="spec files" value="[&quot;/Users/gary.spillman/code/wumpus/tests/specs/firebirdHome/firebird_smoke_spec.js&quot;]"/>
+			</parameters>
+			<steps>
+				<step start="1489773110777" stop="1489773111293" status="passed">
+					<name>POST /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/elements</name>
+					<title>POST /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/elements</title>
+					<attachments>
+						<attachment title="Request" source="56b76705-3db5-4add-9cb0-99043074d31e-attachment.json" type="application/json" size="64"/>
+						<attachment title="Response" source="50279836-d3d6-41ed-9903-2c5187b72fb4-attachment.json" type="application/json" size="199"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1489773111295" stop="1489773112322" status="passed">
+					<name>GET /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/element/5000/displayed</name>
+					<title>GET /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/element/5000/displayed</title>
+					<attachments>
+						<attachment title="Response" source="b69637e2-347a-4d68-a4c5-609fe350846f-attachment.json" type="application/json" size="95"/>
+					</attachments>
+					<steps>
+						<step start="1489773111296" stop="1489773111818" status="passed">
+							<name>GET /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/element/5001/displayed</name>
+							<title>GET /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/element/5001/displayed</title>
+							<attachments>
+								<attachment title="Response" source="7c6022ff-d05f-46a3-b9e6-707b8205971f-attachment.json" type="application/json" size="95"/>
+							</attachments>
+							<steps>
+							</steps>
+						</step>
+					</steps>
+				</step>
+				<step start="1489773112330" stop="1489773112845" status="passed">
+					<name>POST /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/element</name>
+					<title>POST /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/element</title>
+					<attachments>
+						<attachment title="Request" source="8accba64-5329-4520-9b2a-e4b2a6401892-attachment.json" type="application/json" size="64"/>
+						<attachment title="Response" source="e0df15b9-0cd6-459c-8372-3588cbae8907-attachment.json" type="application/json" size="124"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1489773112846" stop="1489773113363" status="passed">
+					<name>POST /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/element/5002/click</name>
+					<title>POST /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/element/5002/click</title>
+					<attachments>
+						<attachment title="Response" source="c14bcc7f-09ed-4db9-b74e-6d4c5a70aab5-attachment.json" type="application/json" size="95"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1489773113369" stop="1489773113884" status="passed">
+					<name>POST /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/elements</name>
+					<title>POST /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/elements</title>
+					<attachments>
+						<attachment title="Request" source="d7ffd751-b617-4e68-9020-8fb7f86e44e0-attachment.json" type="application/json" size="55"/>
+						<attachment title="Response" source="8f74353e-99e8-43e9-8cb3-20a35fd40eeb-attachment.json" type="application/json" size="93"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1489773113887" stop="1489773114399" status="passed">
+					<name>POST /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/elements</name>
+					<title>POST /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/elements</title>
+					<attachments>
+						<attachment title="Request" source="26ea7cc3-9246-4e33-982d-e83fb0681494-attachment.json" type="application/json" size="55"/>
+						<attachment title="Response" source="25d24f32-af08-4f70-be3d-bb6d2d182071-attachment.json" type="application/json" size="148"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1489773114399" stop="1489773114908" status="passed">
+					<name>GET /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/element/5003/displayed</name>
+					<title>GET /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/element/5003/displayed</title>
+					<attachments>
+						<attachment title="Response" source="16546366-db8a-4418-901b-c534d99ff68e-attachment.json" type="application/json" size="95"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1489773114912" stop="1489773115425" status="passed">
+					<name>POST /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/element</name>
+					<title>POST /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/element</title>
+					<attachments>
+						<attachment title="Request" source="91b15c37-cfbc-405b-902c-0ad961a2a97b-attachment.json" type="application/json" size="55"/>
+						<attachment title="Response" source="45cfeefe-b108-4b98-811a-d482c0403eae-attachment.json" type="application/json" size="124"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1489773115425" stop="1489773115938" status="passed">
+					<name>POST /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/element/5004/click</name>
+					<title>POST /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/element/5004/click</title>
+					<attachments>
+						<attachment title="Response" source="e802f930-89b2-4995-b48b-289efd2a2049-attachment.json" type="application/json" size="95"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1489773115941" stop="1489773116454" status="passed">
+					<name>POST /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/element</name>
+					<title>POST /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/element</title>
+					<attachments>
+						<attachment title="Request" source="86d86181-61ef-49c3-8d40-8e0c252e1035-attachment.json" type="application/json" size="55"/>
+						<attachment title="Response" source="65ce167a-64f0-42f7-b3f9-2bc074e64adf-attachment.json" type="application/json" size="124"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1489773116454" stop="1489773116971" status="passed">
+					<name>POST /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/element/5005/click</name>
+					<title>POST /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/element/5005/click</title>
+					<attachments>
+						<attachment title="Response" source="25aa817e-255c-42bf-b895-a8895e113eb9-attachment.json" type="application/json" size="95"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1489773116975" stop="1489773117512" status="passed">
+					<name>POST /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/element</name>
+					<title>POST /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/element</title>
+					<attachments>
+						<attachment title="Request" source="043d533b-bc65-425e-909e-0a1f7ac70228-attachment.json" type="application/json" size="55"/>
+						<attachment title="Response" source="e4e659ff-f332-44fd-a9a8-b623d3d77ef7-attachment.json" type="application/json" size="124"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1489773117513" stop="1489773118027" status="passed">
+					<name>POST /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/element/5006/click</name>
+					<title>POST /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/element/5006/click</title>
+					<attachments>
+						<attachment title="Response" source="607eac7c-7ca7-4e83-984f-96d70b60a791-attachment.json" type="application/json" size="95"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1489773118034" stop="1489773118556" status="passed">
+					<name>POST /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/element</name>
+					<title>POST /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/element</title>
+					<attachments>
+						<attachment title="Request" source="a0567f02-67ed-44a0-b8a5-4aee2ca4896a-attachment.json" type="application/json" size="55"/>
+						<attachment title="Response" source="e524e3d2-bb54-40ae-8412-a1c66e2625b2-attachment.json" type="application/json" size="124"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1489773118556" stop="1489773119070" status="passed">
+					<name>POST /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/element/5007/click</name>
+					<title>POST /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/element/5007/click</title>
+					<attachments>
+						<attachment title="Response" source="b28f3898-b095-4a18-8e5b-bebe4d4b323c-attachment.json" type="application/json" size="95"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1489773119073" stop="1489773119588" status="passed">
+					<name>POST /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/element</name>
+					<title>POST /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/element</title>
+					<attachments>
+						<attachment title="Request" source="3286182e-d54e-43fd-bba9-2da667c42ed4-attachment.json" type="application/json" size="55"/>
+						<attachment title="Response" source="a0e6561d-8bff-4dfa-a5ed-c2c7f1d73aba-attachment.json" type="application/json" size="124"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1489773119588" stop="1489773120104" status="passed">
+					<name>POST /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/element/5008/click</name>
+					<title>POST /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/element/5008/click</title>
+					<attachments>
+						<attachment title="Response" source="e8f87058-aa3a-4b80-b758-92a990cd1469-attachment.json" type="application/json" size="95"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1489773120108" stop="1489773121140" status="passed">
+			<name>should make sure the trustmark icon is viewable</name>
+			<title>should make sure the trustmark icon is viewable</title>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="{&quot;browserName&quot;:&quot;safari&quot;,&quot;appiumVersion&quot;:&quot;1.6.3&quot;,&quot;deviceName&quot;:&quot;iPhone Simulator&quot;,&quot;device-orientation&quot;:&quot;portrait&quot;,&quot;platformVersion&quot;:&quot;9.3&quot;,&quot;platformName&quot;:&quot;iOS&quot;,&quot;app&quot;:&quot;sauce-storage: /Users/username/my.app&quot;,&quot;automationName&quot;:&quot;XCUITest&quot;}"/>
+				<parameter kind="environment-variable" name="spec files" value="[&quot;/Users/gary.spillman/code/wumpus/tests/specs/firebirdHome/firebird_smoke_spec.js&quot;]"/>
+			</parameters>
+			<steps>
+				<step start="1489773120110" stop="1489773120622" status="passed">
+					<name>POST /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/elements</name>
+					<title>POST /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/elements</title>
+					<attachments>
+						<attachment title="Request" source="701c4ad8-d817-46d6-8482-0c6c77ca0616-attachment.json" type="application/json" size="71"/>
+						<attachment title="Response" source="d261c5c2-970c-42c5-95df-dd8bde55306e-attachment.json" type="application/json" size="148"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1489773120622" stop="1489773121138" status="passed">
+					<name>GET /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/element/5009/displayed</name>
+					<title>GET /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/element/5009/displayed</title>
+					<attachments>
+						<attachment title="Response" source="f6479181-d624-401a-8d84-b2b09dab7d63-attachment.json" type="application/json" size="95"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1489773121140" stop="1489773125304" status="passed">
+			<name>should see the ratings label and data count containers texts are the same</name>
+			<title>should see the ratings label and data count containers texts are the same</title>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="{&quot;browserName&quot;:&quot;safari&quot;,&quot;appiumVersion&quot;:&quot;1.6.3&quot;,&quot;deviceName&quot;:&quot;iPhone Simulator&quot;,&quot;device-orientation&quot;:&quot;portrait&quot;,&quot;platformVersion&quot;:&quot;9.3&quot;,&quot;platformName&quot;:&quot;iOS&quot;,&quot;app&quot;:&quot;sauce-storage: /Users/username/my.app&quot;,&quot;automationName&quot;:&quot;XCUITest&quot;}"/>
+				<parameter kind="environment-variable" name="spec files" value="[&quot;/Users/gary.spillman/code/wumpus/tests/specs/firebirdHome/firebird_smoke_spec.js&quot;]"/>
+			</parameters>
+			<steps>
+				<step start="1489773121142" stop="1489773121715" status="passed">
+					<name>POST /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/elements</name>
+					<title>POST /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/elements</title>
+					<attachments>
+						<attachment title="Request" source="f445db52-3ea0-424f-88c0-b0276ded3e80-attachment.json" type="application/json" size="70"/>
+						<attachment title="Response" source="51b6436a-7e1b-4fb1-a638-66d4cb5cc5ed-attachment.json" type="application/json" size="250"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1489773121715" stop="1489773123253" status="passed">
+					<name>GET /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/element/5010/displayed</name>
+					<title>GET /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/element/5010/displayed</title>
+					<attachments>
+						<attachment title="Response" source="36ada500-7e5c-43a5-91a6-0211d2c44cef-attachment.json" type="application/json" size="95"/>
+					</attachments>
+					<steps>
+						<step start="1489773121715" stop="1489773122753" status="passed">
+							<name>GET /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/element/5011/displayed</name>
+							<title>GET /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/element/5011/displayed</title>
+							<attachments>
+								<attachment title="Response" source="583a9c68-add7-4cd4-a927-4c81693b4648-attachment.json" type="application/json" size="95"/>
+							</attachments>
+							<steps>
+								<step start="1489773121716" stop="1489773122247" status="passed">
+									<name>GET /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/element/5012/displayed</name>
+									<title>GET /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/element/5012/displayed</title>
+									<attachments>
+										<attachment title="Response" source="08127643-aa18-402b-8162-87e435a07a22-attachment.json" type="application/json" size="95"/>
+									</attachments>
+									<steps>
+									</steps>
+								</step>
+							</steps>
+						</step>
+					</steps>
+				</step>
+				<step start="1489773123256" stop="1489773123770" status="passed">
+					<name>POST /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/elements</name>
+					<title>POST /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/elements</title>
+					<attachments>
+						<attachment title="Request" source="20c5b097-831d-4280-a15f-e637fa741c29-attachment.json" type="application/json" size="70"/>
+						<attachment title="Response" source="5e34189a-5493-4085-b394-02ecc0f1add6-attachment.json" type="application/json" size="250"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1489773123772" stop="1489773125302" status="passed">
+					<name>GET /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/element/5013/text</name>
+					<title>GET /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/element/5013/text</title>
+					<attachments>
+						<attachment title="Response" source="0e97f78b-79d9-4885-99c0-ced25895e89f-attachment.json" type="application/json" size="144"/>
+					</attachments>
+					<steps>
+						<step start="1489773123775" stop="1489773124798" status="passed">
+							<name>GET /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/element/5014/text</name>
+							<title>GET /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/element/5014/text</title>
+							<attachments>
+								<attachment title="Response" source="8284c948-8c1b-49ef-900a-0e5306f49bb2-attachment.json" type="application/json" size="144"/>
+							</attachments>
+							<steps>
+								<step start="1489773123776" stop="1489773124292" status="passed">
+									<name>GET /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/element/5015/text</name>
+									<title>GET /wd/hub/session/ae5fcabb-1842-486b-ab33-f4f7f0f1a59e/element/5015/text</title>
+									<attachments>
+										<attachment title="Response" source="5fbdef3a-d7d8-4d12-96ca-0ea39a4ae427-attachment.json" type="application/json" size="144"/>
+									</attachments>
+									<steps>
+									</steps>
+								</step>
+							</steps>
+						</step>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

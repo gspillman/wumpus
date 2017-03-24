@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="before_all_hook0" timestamp="2017-03-23T11:29:53" time="32.214" tests="0" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="9545f18c7fd9eb3704a0eae503716ac3"/>
+      <property name="suiteName" value="&quot;before all&quot; hook0"/>
+      <property name="capabilities" value="iphone6.9_3"/>
+    </properties>
+  </testsuite>
+  <testsuite name="firebird_review_submission_form2" timestamp="2017-03-23T11:29:53" time="29.967" tests="4" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="9545f18c7fd9eb3704a0eae503716ac3"/>
+      <property name="suiteName" value="Firebird Review Submission Form2"/>
+      <property name="capabilities" value="iphone6.9_3"/>
+    </properties>
+    <testcase classname="iphone6.9_3.Firebird Review Submission Form2" name="should let the user click on any of the review stars icon4" time="6.747">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://localhost:4723/wd/hub/session/38893336-35d6-41fd-afd6-da7af4c969df/elements - {"using":"id","value":"bv-radio-rating-1"}
+RESULT: {"status":0,"value":[],"sessionId":"38893336-35d6-41fd-afd6-da7af4c969df"}
+COMMAND: POST http://localhost:4723/wd/hub/session/38893336-35d6-41fd-afd6-da7af4c969df/elements - {"using":"id","value":"bv-radio-rating-1"}
+RESULT: {"status":0,"value":[{"ELEMENT":"5003"}],"sessionId":"38893336-35d6-41fd-afd6-da7af4c969df"}
+COMMAND: GET http://localhost:4723/wd/hub/session/38893336-35d6-41fd-afd6-da7af4c969df/element/5003/displayed - {}
+RESULT: {"status":0,"value":true,"sessionId":"38893336-35d6-41fd-afd6-da7af4c969df"}
+COMMAND: POST http://localhost:4723/wd/hub/session/38893336-35d6-41fd-afd6-da7af4c969df/element - {"using":"id","value":"bv-radio-rating-1"}
+RESULT: {"status":0,"value":{"ELEMENT":"5004"},"sessionId":"38893336-35d6-41fd-afd6-da7af4c969df"}
+COMMAND: POST http://localhost:4723/wd/hub/session/38893336-35d6-41fd-afd6-da7af4c969df/element/5004/click - {}
+RESULT: {"status":0,"value":null,"sessionId":"38893336-35d6-41fd-afd6-da7af4c969df"}
+COMMAND: POST http://localhost:4723/wd/hub/session/38893336-35d6-41fd-afd6-da7af4c969df/element - {"using":"id","value":"bv-radio-rating-2"}
+RESULT: {"status":0,"value":{"ELEMENT":"5005"},"sessionId":"38893336-35d6-41fd-afd6-da7af4c969df"}
+COMMAND: POST http://localhost:4723/wd/hub/session/38893336-35d6-41fd-afd6-da7af4c969df/element/5005/click - {}
+RESULT: {"status":0,"value":null,"sessionId":"38893336-35d6-41fd-afd6-da7af4c969df"}
+COMMAND: POST http://localhost:4723/wd/hub/session/38893336-35d6-41fd-afd6-da7af4c969df/element - {"using":"id","value":"bv-radio-rating-3"}
+RESULT: {"status":0,"value":{"ELEMENT":"5006"},"sessionId":"38893336-35d6-41fd-afd6-da7af4c969df"}
+COMMAND: POST http://localhost:4723/wd/hub/session/38893336-35d6-41fd-afd6-da7af4c969df/element/5006/click - {}
+RESULT: {"status":0,"value":null,"sessionId":"38893336-35d6-41fd-afd6-da7af4c969df"}
+COMMAND: POST http://localhost:4723/wd/hub/session/38893336-35d6-41fd-afd6-da7af4c969df/element - {"using":"id","value":"bv-radio-rating-4"}
+RESULT: {"status":0,"value":{"ELEMENT":"5007"},"sessionId":"38893336-35d6-41fd-afd6-da7af4c969df"}
+COMMAND: POST http://localhost:4723/wd/hub/session/38893336-35d6-41fd-afd6-da7af4c969df/element/5007/click - {}
+RESULT: {"status":0,"value":null,"sessionId":"38893336-35d6-41fd-afd6-da7af4c969df"}
+COMMAND: POST http://localhost:4723/wd/hub/session/38893336-35d6-41fd-afd6-da7af4c969df/element - {"using":"id","value":"bv-radio-rating-5"}
+RESULT: {"status":0,"value":{"ELEMENT":"5008"},"sessionId":"38893336-35d6-41fd-afd6-da7af4c969df"}
+COMMAND: POST http://localhost:4723/wd/hub/session/38893336-35d6-41fd-afd6-da7af4c969df/element/5008/click - {}
+RESULT: {"status":0,"value":null,"sessionId":"38893336-35d6-41fd-afd6-da7af4c969df"}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="iphone6.9_3.Firebird Review Submission Form2" name="should let the user enter text into the review title and body fields7" time="5.156">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://localhost:4723/wd/hub/session/38893336-35d6-41fd-afd6-da7af4c969df/elements - {"using":"id","value":"bv-text-field-title"}
+RESULT: {"status":0,"value":[{"ELEMENT":"5009"}],"sessionId":"38893336-35d6-41fd-afd6-da7af4c969df"}
+COMMAND: GET http://localhost:4723/wd/hub/session/38893336-35d6-41fd-afd6-da7af4c969df/element/5009/displayed - {}
+RESULT: {"status":0,"value":true,"sessionId":"38893336-35d6-41fd-afd6-da7af4c969df"}
+COMMAND: POST http://localhost:4723/wd/hub/session/38893336-35d6-41fd-afd6-da7af4c969df/elements - {"using":"id","value":"bv-text-field-title"}
+RESULT: {"status":0,"value":[{"ELEMENT":"5010"}],"sessionId":"38893336-35d6-41fd-afd6-da7af4c969df"}
+COMMAND: POST http://localhost:4723/wd/hub/session/38893336-35d6-41fd-afd6-da7af4c969df/element/5010/clear - {}
+RESULT: {"status":0,"value":null,"sessionId":"38893336-35d6-41fd-afd6-da7af4c969df"}
+COMMAND: POST http://localhost:4723/wd/hub/session/38893336-35d6-41fd-afd6-da7af4c969df/element/5010/value - {"value":["T","h","i","s"," ","i","s"," ","m","y","(13 more items)"]}
+RESULT: {"status":0,"value":null,"sessionId":"38893336-35d6-41fd-afd6-da7af4c969df"}
+COMMAND: POST http://localhost:4723/wd/hub/session/38893336-35d6-41fd-afd6-da7af4c969df/elements - {"using":"id","value":"bv-textarea-field-reviewtext"}
+RESULT: {"status":0,"value":[{"ELEMENT":"5011"}],"sessionId":"38893336-35d6-41fd-afd6-da7af4c969df"}
+COMMAND: POST http://localhost:4723/wd/hub/session/38893336-35d6-41fd-afd6-da7af4c969df/element/5011/clear - {}
+RESULT: {"status":0,"value":null,"sessionId":"38893336-35d6-41fd-afd6-da7af4c969df"}
+COMMAND: POST http://localhost:4723/wd/hub/session/38893336-35d6-41fd-afd6-da7af4c969df/element/5011/value - {"value":["T","h","i","s"," ","i","s"," ","a"," ","(29 more items)"]}
+RESULT: {"status":0,"value":null,"sessionId":"38893336-35d6-41fd-afd6-da7af4c969df"}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="iphone6.9_3.Firebird Review Submission Form2" name="should allow the user to toggle if they recommend or do not recommend a product they review10" time="3.099">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://localhost:4723/wd/hub/session/38893336-35d6-41fd-afd6-da7af4c969df/elements - {"using":"id","value":"bv-radio-isrecommended-true-label"}
+RESULT: {"status":0,"value":[{"ELEMENT":"5012"}],"sessionId":"38893336-35d6-41fd-afd6-da7af4c969df"}
+COMMAND: GET http://localhost:4723/wd/hub/session/38893336-35d6-41fd-afd6-da7af4c969df/element/5012/displayed - {}
+RESULT: {"status":0,"value":true,"sessionId":"38893336-35d6-41fd-afd6-da7af4c969df"}
+COMMAND: POST http://localhost:4723/wd/hub/session/38893336-35d6-41fd-afd6-da7af4c969df/element - {"using":"id","value":"bv-radio-isrecommended-true-label"}
+RESULT: {"status":0,"value":{"ELEMENT":"5013"},"sessionId":"38893336-35d6-41fd-afd6-da7af4c969df"}
+COMMAND: POST http://localhost:4723/wd/hub/session/38893336-35d6-41fd-afd6-da7af4c969df/element/5013/click - {}
+RESULT: {"status":0,"value":null,"sessionId":"38893336-35d6-41fd-afd6-da7af4c969df"}
+COMMAND: POST http://localhost:4723/wd/hub/session/38893336-35d6-41fd-afd6-da7af4c969df/element - {"using":"id","value":"bv-radio-isrecommended-false-label"}
+RESULT: {"status":0,"value":{"ELEMENT":"5014"},"sessionId":"38893336-35d6-41fd-afd6-da7af4c969df"}
+COMMAND: POST http://localhost:4723/wd/hub/session/38893336-35d6-41fd-afd6-da7af4c969df/element/5014/click - {}
+RESULT: {"status":0,"value":null,"sessionId":"38893336-35d6-41fd-afd6-da7af4c969df"}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="iphone6.9_3.Firebird Review Submission Form2" name="should let the user enter a nickname and a valid email to the the relative review form fields13" time="6.176">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://localhost:4723/wd/hub/session/38893336-35d6-41fd-afd6-da7af4c969df/element - {"using":"id","value":"bv-text-field-usernickname"}
+RESULT: {"status":0,"value":{"ELEMENT":"5015"},"sessionId":"38893336-35d6-41fd-afd6-da7af4c969df"}
+COMMAND: POST http://localhost:4723/wd/hub/session/38893336-35d6-41fd-afd6-da7af4c969df/element/5015/click - {}
+RESULT: {"status":0,"value":null,"sessionId":"38893336-35d6-41fd-afd6-da7af4c969df"}
+COMMAND: POST http://localhost:4723/wd/hub/session/38893336-35d6-41fd-afd6-da7af4c969df/elements - {"using":"id","value":"bv-text-field-usernickname"}
+RESULT: {"status":0,"value":[{"ELEMENT":"5016"}],"sessionId":"38893336-35d6-41fd-afd6-da7af4c969df"}
+COMMAND: POST http://localhost:4723/wd/hub/session/38893336-35d6-41fd-afd6-da7af4c969df/element/5016/clear - {}
+RESULT: {"status":0,"value":null,"sessionId":"38893336-35d6-41fd-afd6-da7af4c969df"}
+COMMAND: POST http://localhost:4723/wd/hub/session/38893336-35d6-41fd-afd6-da7af4c969df/element/5016/value - {"value":["B","o","b","b","y","D","i","g","i","t","(6 more items)"]}
+RESULT: {"status":0,"value":null,"sessionId":"38893336-35d6-41fd-afd6-da7af4c969df"}
+COMMAND: POST http://localhost:4723/wd/hub/session/38893336-35d6-41fd-afd6-da7af4c969df/element - {"using":"id","value":"bv-email-field-hostedauthentication_authenticationemail"}
+RESULT: {"status":0,"value":{"ELEMENT":"5017"},"sessionId":"38893336-35d6-41fd-afd6-da7af4c969df"}
+COMMAND: POST http://localhost:4723/wd/hub/session/38893336-35d6-41fd-afd6-da7af4c969df/element/5017/click - {}
+RESULT: {"status":0,"value":null,"sessionId":"38893336-35d6-41fd-afd6-da7af4c969df"}
+COMMAND: POST http://localhost:4723/wd/hub/session/38893336-35d6-41fd-afd6-da7af4c969df/elements - {"using":"id","value":"bv-email-field-hostedauthentication_authenticationemail"}
+RESULT: {"status":0,"value":[{"ELEMENT":"5018"}],"sessionId":"38893336-35d6-41fd-afd6-da7af4c969df"}
+COMMAND: POST http://localhost:4723/wd/hub/session/38893336-35d6-41fd-afd6-da7af4c969df/element/5018/clear - {}
+RESULT: {"status":0,"value":null,"sessionId":"38893336-35d6-41fd-afd6-da7af4c969df"}
+COMMAND: POST http://localhost:4723/wd/hub/session/38893336-35d6-41fd-afd6-da7af4c969df/element/5018/value - {"value":["b","o","b","b","y",".","d","i","g","i","(23 more items)"]}
+RESULT: {"status":0,"value":null,"sessionId":"38893336-35d6-41fd-afd6-da7af4c969df"}
+COMMAND: DELETE http://localhost:4723/wd/hub/session/38893336-35d6-41fd-afd6-da7af4c969df - {}
+RESULT: {"status":0,"value":null,"sessionId":"38893336-35d6-41fd-afd6-da7af4c969df"}
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

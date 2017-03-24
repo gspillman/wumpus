@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1489098782226" stop="1489098783385">
+	<name>Firebird Submission Form</name>
+	<title>Firebird Submission Form</title>
+	<test-cases>
+		<test-case start="1489098782227" stop="1489098783383" status="passed">
+			<name>should have the right title</name>
+			<title>should have the right title</title>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="{&quot;maxInstances&quot;:5,&quot;browserName&quot;:&quot;chrome&quot;}"/>
+				<parameter kind="environment-variable" name="spec files" value="[&quot;/Users/gary.spillman/code/wumpus/tests/specs/firebird_smoke_spec.js&quot;]"/>
+			</parameters>
+			<steps>
+				<step start="1489098782231" stop="1489098782680" status="passed">
+					<name>POST /wd/hub/session/2816df5f-4417-459e-8ebb-6cb34238a4e1/url</name>
+					<title>POST /wd/hub/session/2816df5f-4417-459e-8ebb-6cb34238a4e1/url</title>
+					<attachments>
+						<attachment title="Request" source="12405125-5ff8-450a-87aa-d37bcca1eb6f-attachment.json" type="application/json" size="153"/>
+						<attachment title="Response" source="03c8d54c-87af-4f91-ae3f-f8807f1452da-attachment.json" type="application/json" size="196"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1489098782684" stop="1489098783381" status="passed">
+					<name>GET /wd/hub/session/2816df5f-4417-459e-8ebb-6cb34238a4e1/title</name>
+					<title>GET /wd/hub/session/2816df5f-4417-459e-8ebb-6cb34238a4e1/title</title>
+					<attachments>
+						<attachment title="Response" source="044b5246-a3e8-4e75-b1b2-dd01a9f4ded9-attachment.json" type="application/json" size="222"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

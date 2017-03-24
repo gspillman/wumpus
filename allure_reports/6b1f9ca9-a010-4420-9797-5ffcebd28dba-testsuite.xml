@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1489764626596" stop="1489764634068">
+	<name>Firebird Submission Form</name>
+	<title>Firebird Submission Form</title>
+	<test-cases>
+		<test-case start="1489764626597" stop="1489764633467" status="passed">
+			<name>&quot;before all&quot; hook</name>
+			<title>&quot;before all&quot; hook</title>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+				<step start="1489764626600" stop="1489764630804" status="passed">
+					<name>POST /wd/hub/session/ea4f7ef4-80ba-4386-a65e-a0490576c535/url</name>
+					<title>POST /wd/hub/session/ea4f7ef4-80ba-4386-a65e-a0490576c535/url</title>
+					<attachments>
+						<attachment title="Request" source="197acd3b-0afa-458d-a67f-5d2adb19cd95-attachment.json" type="application/json" size="153"/>
+						<attachment title="Response" source="05d9a884-b0a1-4abd-8d1c-9fb3e8e978c9-attachment.json" type="application/json" size="95"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1489764630810" stop="1489764631327" status="passed">
+					<name>POST /wd/hub/session/ea4f7ef4-80ba-4386-a65e-a0490576c535/elements</name>
+					<title>POST /wd/hub/session/ea4f7ef4-80ba-4386-a65e-a0490576c535/elements</title>
+					<attachments>
+						<attachment title="Request" source="d3bbde79-9070-4193-aceb-ab66c9faab40-attachment.json" type="application/json" size="64"/>
+						<attachment title="Response" source="0791765e-f959-40df-9b87-9def8b1b9f14-attachment.json" type="application/json" size="199"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1489764631328" stop="1489764632425" status="passed">
+					<name>GET /wd/hub/session/ea4f7ef4-80ba-4386-a65e-a0490576c535/element/5000/displayed</name>
+					<title>GET /wd/hub/session/ea4f7ef4-80ba-4386-a65e-a0490576c535/element/5000/displayed</title>
+					<attachments>
+						<attachment title="Response" source="3b9f4d29-1c23-472f-8e78-ed3210facfe9-attachment.json" type="application/json" size="95"/>
+					</attachments>
+					<steps>
+						<step start="1489764631329" stop="1489764631851" status="passed">
+							<name>GET /wd/hub/session/ea4f7ef4-80ba-4386-a65e-a0490576c535/element/5001/displayed</name>
+							<title>GET /wd/hub/session/ea4f7ef4-80ba-4386-a65e-a0490576c535/element/5001/displayed</title>
+							<attachments>
+								<attachment title="Response" source="10115083-5a64-4b70-9a37-d8418e2f142e-attachment.json" type="application/json" size="95"/>
+							</attachments>
+							<steps>
+							</steps>
+						</step>
+					</steps>
+				</step>
+				<step start="1489764632428" stop="1489764632947" status="passed">
+					<name>POST /wd/hub/session/ea4f7ef4-80ba-4386-a65e-a0490576c535/element</name>
+					<title>POST /wd/hub/session/ea4f7ef4-80ba-4386-a65e-a0490576c535/element</title>
+					<attachments>
+						<attachment title="Request" source="938e1f0c-f9b3-4f89-a86c-6e702cc86175-attachment.json" type="application/json" size="64"/>
+						<attachment title="Response" source="a590f84e-b8f2-4327-98fb-d3fc5420f9cb-attachment.json" type="application/json" size="124"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1489764632947" stop="1489764633463" status="passed">
+					<name>POST /wd/hub/session/ea4f7ef4-80ba-4386-a65e-a0490576c535/element/5002/click</name>
+					<title>POST /wd/hub/session/ea4f7ef4-80ba-4386-a65e-a0490576c535/element/5002/click</title>
+					<attachments>
+						<attachment title="Response" source="53a3fd9a-d998-4942-adf7-b32a2ac2bd28-attachment.json" type="application/json" size="95"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1489764633468" stop="1489764634067" status="broken">
+			<name>should let the user click on the Write a Review button</name>
+			<title>should let the user click on the Write a Review button</title>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="{&quot;browserName&quot;:&quot;safari&quot;,&quot;appiumVersion&quot;:&quot;1.6.3&quot;,&quot;deviceName&quot;:&quot;iPhone Simulator&quot;,&quot;device-orientation&quot;:&quot;portrait&quot;,&quot;platformVersion&quot;:&quot;9.3&quot;,&quot;platformName&quot;:&quot;iOS&quot;,&quot;app&quot;:&quot;sauce-storage: /Users/username/my.app&quot;,&quot;automationName&quot;:&quot;XCUITest&quot;}"/>
+				<parameter kind="environment-variable" name="spec files" value="[&quot;/Users/gary.spillman/code/wumpus/tests/specs/review_submission_form_spec.js&quot;]"/>
+			</parameters>
+			<steps>
+				<step start="1489764633470" stop="1489764633993" status="passed">
+					<name>POST /wd/hub/session/ea4f7ef4-80ba-4386-a65e-a0490576c535/element</name>
+					<title>POST /wd/hub/session/ea4f7ef4-80ba-4386-a65e-a0490576c535/element</title>
+					<attachments>
+						<attachment title="Request" source="8589f87c-8cbe-4221-b112-69080364e743-attachment.json" type="application/json" size="55"/>
+						<attachment title="Response" source="87728c9e-3df2-4064-b621-fe1433644b75-attachment.json" type="application/json" size="421"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1489764633995" stop="1489764634064" status="passed">
+					<name>GET /wd/hub/session/ea4f7ef4-80ba-4386-a65e-a0490576c535/screenshot</name>
+					<title>GET /wd/hub/session/ea4f7ef4-80ba-4386-a65e-a0490576c535/screenshot</title>
+					<attachments>
+						<attachment title="Screenshot" source="bb3e98ed-3931-45fc-8221-e14bb36a8244-attachment.png" type="image/png" size="167248"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>An element could not be located on the page using the given search parameters.</message>
+				<stack-trace>Error: An element could not be located on the page using the given search parameters.
+    at click(&quot;#bv-radio-rating-1&quot;) - at element(&quot;#bv-radio-rating-1&quot;) - click.js:12:17</stack-trace>
+			</failure>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>
